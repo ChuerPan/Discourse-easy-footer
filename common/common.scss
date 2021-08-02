@@ -1,12 +1,12 @@
 .custom-footer {
   display: flex;
   flex-wrap: wrap;
-  background: #46a1e4;
+  background: var(--header_background);
   .flexbox {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    color: var(--secondary);
+    color: var(--primary);
     padding: 2em 0 1em 0;
   }
   .first-box {
@@ -18,7 +18,7 @@
       display: block;
     }
     .blurb {
-      color: var(--secondary-high);
+      color: var(--primary-high);
     }
   }
   .second-box {
@@ -54,7 +54,7 @@
         justify-content: center;
 
         .d-icon {
-          color: var(--secondary);
+          color: var(--primary-high);
           min-width: unset;
           margin: 0;
           font-size: $font-up-2;
@@ -63,7 +63,7 @@
       }
     }
     .small-link {
-      color: var(--secondary-high);
+      color: var(--primary-high);
       margin: 0 0.25em;
       font-size: $font-down-2;
     }
@@ -75,7 +75,7 @@
     font-weight: bold;
   }
   .footer-section-link-wrapper a {
-    color: var(--secondary-high);
+    color: var(--primary-high);
   }
   .list {
     margin: 1em;
