@@ -15,12 +15,12 @@
       font-size: $font-up-2;
       font-weight: bold;
       margin-bottom: 0.5em;
-      flex-direction: column;
       display: block;
     }
     .blurb {
       color: var(--primary-very-low);
-      white-space: pre-line;
+      flex-direction: column;
+      white-space: nowrap;
     }
   }
   .second-box {
