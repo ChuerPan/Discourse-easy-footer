@@ -18,7 +18,7 @@
       display: block;
     }
     .blurb {
-      color: var(--primary-high);
+      color: var(--primary-very-low);
     }
   }
   .second-box {
@@ -54,7 +54,7 @@
         justify-content: center;
 
         .d-icon {
-          color: var(--primary-high);
+          color: var(--primary-very-low);
           min-width: unset;
           margin: 0;
           font-size: $font-up-2;
@@ -63,7 +63,7 @@
       }
     }
     .small-link {
-      color: var(--primary-high);
+      color: var(--primary-very-low);
       margin: 0 0.25em;
       font-size: $font-down-2;
     }
@@ -75,7 +75,7 @@
     font-weight: bold;
   }
   .footer-section-link-wrapper a {
-    color: var(--primary-high);
+    color: var(--primary-very-low);
   }
   .list {
     margin: 1em;
