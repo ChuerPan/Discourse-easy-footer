@@ -19,8 +19,9 @@
     }
     .blurb {
       color: var(--primary-very-low);
-      p {
-        white-space: pre;
+      p span 
+      {
+        display: block;
       }
     }
   }
