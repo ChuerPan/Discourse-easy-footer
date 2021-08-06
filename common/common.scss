@@ -1,6 +1,6 @@
 .custom-footer {
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
   background: var(--header_background);
   .flexbox {
     width: 100%;
@@ -18,7 +18,7 @@
       display: block;
     }
     .blurb {
-      white-space: nowrap;
+      flex-wrap: wrap;
       color: var(--primary-very-low);
     }
   }
