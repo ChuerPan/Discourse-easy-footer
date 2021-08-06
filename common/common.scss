@@ -2,6 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   background: var(--header_background);
+      p span 
+      {
+        display: block;
+      }
   .flexbox {
     width: 100%;
     display: flex;
@@ -19,10 +23,6 @@
     }
     .blurb {
       color: var(--primary-very-low);
-      p span 
-      {
-        display: block;
-      }
     }
   }
   .second-box {
