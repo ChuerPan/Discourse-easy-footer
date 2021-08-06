@@ -18,8 +18,12 @@
       display: block;
     }
     .blurb {
-      flex-wrap: nowrap;
       color: var(--primary-very-low);
+      <style>
+      p {
+        white-space: pre;
+      }
+      </style>
     }
   }
   .second-box {
