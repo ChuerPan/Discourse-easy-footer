@@ -5,7 +5,7 @@
   .flexbox {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     color: var(--secondary);
     padding: 2em 0 1em 0;
   }
@@ -18,7 +18,7 @@
       display: block;
     }
     .blurb {
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       color: var(--primary-very-low);
     }
   }
