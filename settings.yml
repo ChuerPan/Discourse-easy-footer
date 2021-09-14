@@ -13,21 +13,21 @@ Blurb:
 Link_sections:
   type: list
   list_type: simple
-  default: "Design, Get inspired!|Code, Learn new things!|Business, Start a new career!|Shop, Buy cool stuff!|Community, The latest news about the people you care about!|World, Check out what's happening"
+  default: "官方网站, 请认准官方网站，谨防上当受骗！|官方组织, 社团、学生会、教务处甚至是宿舍游戏联盟！|工具箱, 好用且常用！|商务合作, 谈感情就伤钱了"
   description:
     en: "Add link sections. The ideal number of sections is six. One item per line in this order:<br> Text, title<br><b>Text:</b> what appears on in the footer<br><b>Title:</b> the text that appears when the item is hovered."
     zh_CN: "添加链接分类，最佳为6个。以英文逗号间隔，格式为：<br>名称，介绍<br><b>名称:</b>链接分类的名称<br><b>介绍:</b>鼠标悬停时的介绍文本。"
 Links:
   type: list
   list_type: simple
-  default: "Design, Design process, #, blank, Learn the basics|Design, Blog design, #, blank, What makes for a great blog?|Design, Photoshop tutorials, #, blank, Photoshop for beginners|Design, Design trends, #, blank, Stay on top of the current trends!|Code, Wordpress, #, blank, Wordpress code examples|Code, Tools, #, blank, Tools that will make your life easier!|Code, Tutorials, #, blank, Just starting out? We'll guide you through the basics|Business, Blogging, #, blank, Why not start a blog?|Business, Social media, #, blank, Learn how to leverage Social media and make it work for your business|Business, Make money, #, blank, Everyone likes to be paid!|Business, Marketing, #, blank, No business will survive without customers...Here's how to get'em!|Shop, Vectors, #, blank, buy vectors|Shop, Textures, #, blank, buy textures|Shop, UI kits, #, blank, buy UI kits|Shop, PSDs, #, blank, Ready-made PSD's|Community, Your corner, #, blank, Tell us how you feel!|Community, Questions, #, blank, Feel like answering some questions?|Community, Members, #, blank, Say hi to new members|Community, trending, #, blank, Catch up with the latest trending topics!|World, Politics, #, blank, Stay up to date|World, Education, #, blank, The latest research|World, Automotive, #, blank, We cover the latest models!|World, Sports, #, The latest scores|World, Tech, #, Never miss a new gadget"
+  default: "官方网站, 集美大学, https://www.jmu.edu.cn/, blank, 集美大学|官方网站, 诚毅学院, http://chengyi.jmu.edu.cn/, blank, 集美大学诚毅学院|官方组织, 诚毅招生, http://cyzsb.jmu.edu.cn/, blank|工具箱, 旧版诚毅小家, https://bbs.chengyi.org, blank|商务合作, 合作联系, #,self"
   description:
     en: "Add links to link sections. One item per line in this order:<br>Parent, text, URL, target, title<br>It is a good idea to keep the number of links under each section similar<br><b>Parent:</b> the name of the parent section which this link shows under. Use the `text` value from the list above<br><b>Text:</b> the text that shows for this link<br><b>URL:</b> the path this item links to. You can use relative paths as well.<br><b>Target:</b> Choose whether this item will open in a new tab or in the same tab. Use blank to open the link in a new tab, or use self to open it in the same tab.<br><b>Title:</b> the text that shows when the link is hovered."
     zh_CN: "添加友情链接，以英文逗号间隔，格式为：<br>链接分类名称,友情链接名称,链接地址,打开方式,介绍<br><b>链接分类名称：</b>即上面添加的链接分类名称，可中文<br><b>友情链接名称：</b>即要添加的链接的名称<br><b>链接地址：</b>即URL地址或本地网站相对路径<br><b>打开方式：</b>blank（打开为新标签），self（当前标签打开）<br><b>介绍：</b>鼠标悬停时的介绍文本。"
 Small_links:
   type: list
   list_type: simple
-  default: "Privacy, #, self|Terms of service, #, self| About, #, self"
+  default: "隐私条款, #, self| 新手帮助, #, self| 关于小家, #, self"
   description:
     en: "You can add small links at the bottom of the footer like Terms of Service and Privacy. One item per line in this order:<br>Text, URL, target<br><b>Text:</b> The text that shows for the small link<br><b>URL:</b> The path of the link<br><b>Target:</b> Use blank to open the link in a new tab and use self to open it in the same tab"
     zh_CN: "左侧底部小链接，通常用于添加隐私/服务条款等。以英文逗号间隔，格式为：<br>链接名称,链接地址,打开方式"
